@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+nav{
+    /* border: 1px solid black; */
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 15px 7px rgb(236 234 234);
+}
+.darkModeNav{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    box-shadow: none;
+}
+.navbar{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;    
+}
+.navbar button span, .navbar button p{
+    margin: 0px 5px;
+    font-weight: bold;
+}

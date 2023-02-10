@@ -1,0 +1,88 @@
+.countryPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countryItem{
+    width: 80%;
+}
+.btn, .infoCountry{
+    margin: 50px 0px;
+}
+.lightModeBtn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+}
+.infoCountry{
+    display: flex;
+    justify-content: space-between;
+}
+.infoCountry .flag{
+    width: 50%;
+}
+.infoCountry .flag img{
+    width: 100%;
+}
+.countryInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.countryInfo span{
+    font-weight: bold;
+}
+.specificInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.border, .border div{
+    display: flex;
+}
+.lightModeBorder{
+    margin: 0px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px gray;
+    width: 50px;
+    text-align: center;
+}
+.darkMode{
+    color: white;
+}
+.darkModeBtn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow: 1px 1px 10px 1px hsl(208deg 23% 43%);
+}
+.darkModeBorder{
+    margin: 0px 5px;
+    color: white;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow: 1px 1px 10px 1px hsl(208deg 23% 43%);
+    width: 50px;
+    text-align: center;
+}
+@media (max-width: 750px) {
+    .infoCountry, .specificInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .countryInfo h1, .countryInfo div, .countryInfo div{
+        margin: 5px;
+    }
+    .border{
+        display: flex;
+        flex-direction: column;
+    }
+}
